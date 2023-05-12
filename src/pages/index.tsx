@@ -1,6 +1,10 @@
 import Container from "@/components/Container";
-import Navbar from "@/components/Navbar";
+import Transaction from "@/components/Transaction";
 
 export default function Home() {
-  return <Container>aaa</Container>;
+  return (
+    <Container>
+      <Transaction />
+    </Container>
+  );
 }
