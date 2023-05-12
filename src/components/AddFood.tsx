@@ -13,7 +13,7 @@ const AddFood = () => {
   return (
     <div>
       <div className="flex flex-col gap-3 mt-6 px-8">
-        <div className="flex flex-col gap-6 border rounded border-gray-300 p-8 ">
+        <div className="flex flex-col gap-6 border rounded border-gray-300 p-8 bg-white ">
           <h1 className="font-bold text-cyan-400">Tambahkan Menu</h1>
           <Form
             form={form}
